@@ -1,0 +1,21 @@
+{
+    "name": "shuke/daily-music",
+    "description": "每日歌曲分享自定义",
+    "type": "flarum-extension",
+    "require": {
+        "flarum/core": ">=1.2"
+    },
+    "autoload": {
+        "psr-4": {"Shuke\\DailyMusic\\": "src/"}
+    },
+    "extra": {
+        "flarum-extension": {
+            "title": "每日歌曲分享自定义",
+            "icon": {
+                "name": "fas fa-smile",
+                "backgroundColor": "#238c59",
+                "color": "#fff"
+            }
+        }
+    }
+}
