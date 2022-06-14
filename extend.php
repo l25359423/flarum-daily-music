@@ -1,10 +1,10 @@
 <?php
-namespace Shuke\DailyMusic;
+namespace Leo\DailyMusic;
 use Flarum\Extend;
-use Shuke\DailyMusic\Api\Controller;
-use Shuke\DailyMusic\Filter\DailyMusicFilter;
-use Shuke\DailyMusic\Filter\NoOpGambit;
-use Shuke\DailyMusic\PermissionBasedForumSettings;
+use Leo\DailyMusic\Api\Controller;
+use Leo\DailyMusic\Filter\DailyMusicFilter;
+use Leo\DailyMusic\Filter\NoOpGambit;
+use Leo\DailyMusic\PermissionBasedForumSettings;
 use Flarum\Api\Serializer\ForumSerializer;
 
 return [
@@ -29,18 +29,18 @@ return [
             ->attributes(PermissionBasedForumSettings::class),
 
         (new Extend\View())
-            ->namespace('shuke.daily-music', __DIR__.'/resources/views'),
+            ->namespace('leo.daily-music', __DIR__.'/resources/views'),
 
 
 
 
 //        (new Extend\Policy())
-//        ->modelPolicy(Shuke\DailyMusic\DailyMusic::class, Shuke\DailyMusic\Access\DailyMusicPolicy::class),
+//        ->modelPolicy(Leo\DailyMusic\DailyMusic::class, Leo\DailyMusic\Access\DailyMusicPolicy::class),
 
 //        (new Extend\Routes('api'))
-//        ->get('/daily-musics', 'daily-musics.index', Shuke\DailyMusic\Api\Controller\ListDailyMusicsController::class)
-//        ->get('/daily-musics/{id}', 'daily-musics.show', Shuke\DailyMusic\Api\Controller\ShowDailyMusicController::class)
-//        ->post('/daily-musics', 'daily-musics.create', Shuke\DailyMusic\Api\Controller\CreateDailyMusicController::class)
-//        ->patch('/daily-musics/{id}', 'daily-musics.update', Shuke\DailyMusic\Api\Controller\UpdateDailyMusicController::class)
-//        ->delete('/daily-musics/{id}', 'daily-musics.delete', Shuke\DailyMusic\Api\Controller\DeleteDailyMusicController::class)
+//        ->get('/daily-musics', 'daily-musics.index', Leo\DailyMusic\Api\Controller\ListDailyMusicsController::class)
+//        ->get('/daily-musics/{id}', 'daily-musics.show', Leo\DailyMusic\Api\Controller\ShowDailyMusicController::class)
+//        ->post('/daily-musics', 'daily-musics.create', Leo\DailyMusic\Api\Controller\CreateDailyMusicController::class)
+//        ->patch('/daily-musics/{id}', 'daily-musics.update', Leo\DailyMusic\Api\Controller\UpdateDailyMusicController::class)
+//        ->delete('/daily-musics/{id}', 'daily-musics.delete', Leo\DailyMusic\Api\Controller\DeleteDailyMusicController::class)
 ];

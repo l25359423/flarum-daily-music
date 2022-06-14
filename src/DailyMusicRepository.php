@@ -1,10 +1,10 @@
 <?php
 
-namespace Shuke\DailyMusic;
+namespace Leo\DailyMusic;
 
 use Flarum\User\User;
 use Illuminate\Database\Eloquent\Builder;
-use Shuke\DailyMusic\Model\DailyMusic;
+use Leo\DailyMusic\Model\DailyMusic;
 
 class DailyMusicRepository
 {

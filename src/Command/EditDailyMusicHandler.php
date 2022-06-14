@@ -1,10 +1,10 @@
 <?php
 
-namespace Shuke\DailyMusic\Command;
+namespace Leo\DailyMusic\Command;
 
 use Illuminate\Support\Arr;
-use Shuke\DailyMusic\DailyMusicRepository;
-use Shuke\DailyMusic\DailyMusicValidator;
+use Leo\DailyMusic\DailyMusicRepository;
+use Leo\DailyMusic\DailyMusicValidator;
 
 class EditDailyMusicHandler
 {

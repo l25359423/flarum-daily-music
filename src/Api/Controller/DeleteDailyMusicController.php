@@ -1,14 +1,14 @@
 <?php
 
-namespace Shuke\DailyMusic\Api\Controller;
+namespace Leo\DailyMusic\Api\Controller;
 
 use Flarum\Api\Controller\AbstractDeleteController;
 use Flarum\Http\RequestUtil;
 use Illuminate\Contracts\Bus\Dispatcher;
 use Illuminate\Support\Arr;
 use Psr\Http\Message\ServerRequestInterface;
-use Shuke\DailyMusic\Command\DeleteDailyMusic;
-use Shuke\DailyMusic\Api\Serializer\DailyMusicSerializer;
+use Leo\DailyMusic\Command\DeleteDailyMusic;
+use Leo\DailyMusic\Api\Serializer\DailyMusicSerializer;
 
 class DeleteDailyMusicController extends AbstractDeleteController
 {

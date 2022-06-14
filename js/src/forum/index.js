@@ -6,7 +6,7 @@ import DailyMusicPage from './components/DailyMusicPage';
 import DailyMusic from './models/DailyMusic';
 // We provide our extension code in the form of an "initializer".
 // This is a callback that will run after the core has booted.
-app.initializers.add('shuke-daily-music', function(app) {
+app.initializers.add('leo-daily-music', function(app) {
     app.routes.daily_music = {
         path: '/daily-music',
         component: DailyMusicPage,

@@ -1,6 +1,6 @@
 <?php
 
-namespace Shuke\DailyMusic\Listener;
+namespace Leo\DailyMusic\Listener;
 
 use Post as FPost;
 

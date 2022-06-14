@@ -1,9 +1,9 @@
 <?php
 
-namespace Shuke\DailyMusic\Api\Serializer;
+namespace Leo\DailyMusic\Api\Serializer;
 
 use Flarum\Api\Serializer\AbstractSerializer;
-use Shuke\DailyMusic\Model\DailyMusic;
+use Leo\DailyMusic\Model\DailyMusic;
 use InvalidArgumentException;
 
 class DailyMusicSerializer extends AbstractSerializer

@@ -1,6 +1,6 @@
 {
   "private": true,
-  "name": "@shuke/daily-music",
+  "name": "@leo/daily-music",
   "dependencies": {
     "flarum-webpack-config": "^1.0.0",
     "webpack": "^4.0.0",

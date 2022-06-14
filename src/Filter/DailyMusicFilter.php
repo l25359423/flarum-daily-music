@@ -1,8 +1,8 @@
 <?php
 
-namespace Shuke\DailyMusic\Filter;
+namespace Leo\DailyMusic\Filter;
 
-use Shuke\DailyMusic\Model\DailyMusic;
+use Leo\DailyMusic\Model\DailyMusic;
 use Flarum\Filter\AbstractFilterer;
 use Flarum\User\User;
 use Illuminate\Database\Eloquent\Builder;

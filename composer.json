@@ -1,12 +1,12 @@
 {
-    "name": "shuke/daily-music",
+    "name": "leo/daily-music",
     "description": "每日歌曲分享自定义",
     "type": "flarum-extension",
     "require": {
         "flarum/core": ">=1.2"
     },
     "autoload": {
-        "psr-4": {"Shuke\\DailyMusic\\": "src/"}
+        "psr-4": {"Leo\\DailyMusic\\": "src/"}
     },
     "extra": {
         "flarum-extension": {

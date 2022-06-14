@@ -1,8 +1,8 @@
 <?php
 
-namespace Shuke\DailyMusic\Access;
+namespace Leo\DailyMusic\Access;
 
-use Shuke\DailyMusic\Model\DailyMusic;
+use Leo\DailyMusic\Model\DailyMusic;
 use Flarum\User\Access\AbstractPolicy;
 use Flarum\User\User;
 

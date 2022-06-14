@@ -1,9 +1,9 @@
 <?php
 
-namespace Shuke\DailyMusic\Command;
+namespace Leo\DailyMusic\Command;
 
 use Illuminate\Support\Arr;
-use Shuke\DailyMusic\DailyMusicRepository;
+use Leo\DailyMusic\DailyMusicRepository;
 
 class DeleteDailyMusicHandler
 {

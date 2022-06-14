@@ -1,10 +1,10 @@
 import app from 'flarum/admin/app';
 
-app.initializers.add('shuke-daily-music', function(app) {
+app.initializers.add('leo-daily-music', function(app) {
     console.log(111)
   // Your Extension Code Here
   app.extensionData
-    .for('shuke-daily-music')
+    .for('leo-daily-music')
     .registerPermission(
         {
             icon: 'fas fa-rocket', // Any FontAwesome 5 icon class

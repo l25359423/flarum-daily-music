@@ -1,6 +1,6 @@
 <?php
 
-namespace Shuke\DailyMusic;
+namespace Leo\DailyMusic;
 
 use Flarum\Foundation\AbstractValidator;
 

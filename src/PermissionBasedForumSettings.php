@@ -9,7 +9,7 @@
  * file that was distributed with this source code.
  */
 
-namespace Shuke\DailyMusic;
+namespace Leo\DailyMusic;
 
 use Flarum\Api\Serializer\ForumSerializer;
 use Flarum\Settings\SettingsRepositoryInterface;

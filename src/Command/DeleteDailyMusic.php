@@ -1,6 +1,6 @@
 <?php
 
-namespace Shuke\DailyMusic\Command;
+namespace Leo\DailyMusic\Command;
 
 use Flarum\User\User;
 

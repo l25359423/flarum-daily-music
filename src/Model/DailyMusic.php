@@ -1,6 +1,6 @@
 <?php
 
-namespace Shuke\DailyMusic\Model;
+namespace Leo\DailyMusic\Model;
 
 use Flarum\Database\AbstractModel;
 use Flarum\Database\ScopeVisibilityTrait;

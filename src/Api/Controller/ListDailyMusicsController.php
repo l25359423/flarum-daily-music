@@ -1,15 +1,15 @@
 <?php
 
-namespace Shuke\DailyMusic\Api\Controller;
+namespace Leo\DailyMusic\Api\Controller;
 
-use Shuke\DailyMusic\Filter\DailyMusicFilter;
+use Leo\DailyMusic\Filter\DailyMusicFilter;
 use Flarum\Api\Controller\AbstractListController;
 use Flarum\Http\RequestUtil;
 use Flarum\Http\UrlGenerator;
 use Flarum\Query\QueryCriteria;
 use Psr\Http\Message\ServerRequestInterface;
 use Tobscure\JsonApi\Document;
-use Shuke\DailyMusic\Api\Serializer\DailyMusicSerializer;
+use Leo\DailyMusic\Api\Serializer\DailyMusicSerializer;
 
 class ListDailyMusicsController extends AbstractListController
 {

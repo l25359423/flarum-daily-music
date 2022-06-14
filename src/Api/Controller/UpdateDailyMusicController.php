@@ -1,6 +1,6 @@
 <?php
 
-namespace Shuke\DailyMusic\Api\Controller;
+namespace Leo\DailyMusic\Api\Controller;
 
 use Flarum\Api\Controller\AbstractShowController;
 use Flarum\Http\RequestUtil;
@@ -8,8 +8,8 @@ use Illuminate\Contracts\Bus\Dispatcher;
 use Illuminate\Support\Arr;
 use Psr\Http\Message\ServerRequestInterface;
 use Tobscure\JsonApi\Document;
-use Shuke\DailyMusic\Command\EditDailyMusic;
-use Shuke\DailyMusic\Api\Serializer\DailyMusicSerializer;
+use Leo\DailyMusic\Command\EditDailyMusic;
+use Leo\DailyMusic\Api\Serializer\DailyMusicSerializer;
 
 class UpdateDailyMusicController extends AbstractShowController
 {

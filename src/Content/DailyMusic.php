@@ -9,7 +9,7 @@
  * file that was distributed with this source code.
  */
 
-namespace Shuke\DailyMusic\Content;
+namespace Leo\DailyMusic\Content;
 
 use Flarum\Api\Client;
 use Flarum\Frontend\Document;
@@ -19,7 +19,7 @@ use Flarum\User\User;
 use Illuminate\Contracts\View\Factory;
 use Illuminate\Support\Arr;
 use Psr\Http\Message\ServerRequestInterface as Request;
-use Shuke\DailyMusic\Model\DailyMusic as DailyMusicModel;
+use Leo\DailyMusic\Model\DailyMusic as DailyMusicModel;
 
 class DailyMusic
 {

@@ -9,7 +9,7 @@
  * file that was distributed with this source code.
  */
 
-namespace Shuke\DailyMusic\Filter;
+namespace Leo\DailyMusic\Filter;
 
 use Flarum\Filter\FilterInterface;
 use Flarum\Filter\FilterState;
