@@ -30,6 +30,8 @@ return [
 
         (new Extend\View())
             ->namespace('leo.daily-music', __DIR__.'/resources/views'),
+        (new Extend\Console())
+        ->command(Console\PostMusic::class),
 
 
 
